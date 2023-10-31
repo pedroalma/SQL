@@ -19,17 +19,17 @@ descricao varchar(45)
 );
 desc tblivros;
 
-insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(01,'colecionador de pedras','2007','Sérgio vaz','poeta');
-insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(02,'literatura,pão e poesia','2011','Sérgio vaz','poeta');
-insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(03,'flores da batalha','2023','Sérgio vaz','poeta');
-insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(04,'raizes do brasil','1936','Sérgio Buarque de Holanda','literatura');
-insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(05,'A república','2017','platão','filosofia');
-insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(05,'politica e educação','1992','Paulo freire','politica');
-insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(06,'a rosa do povo','1945','carlos drummond de andrade','poesia');
-insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(07,'o mundo e grande','2023','carlos drummond de andrade','poesia');
-insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(08,'geografia da fome','2022','josue de castro','filosofia');
-insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(09,'o labirinto da solidão e post scriptum','1950','octavio paz','filosofia');	
-insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(10,'o poeta, o guerreiro e o profeta','1990','rubem alves','poesia');
+insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(01,'colecionador de pedras','2007',01,'poeta');
+insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(02,'literatura,pão e poesia','2011',01,'poeta');
+insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(03,'flores da batalha','2023',01,'poeta');
+insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(04,'raizes do brasil','1936',02,'literatura');
+insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(05,'A república','2017',03,'filosofia');
+insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(05,'politica e educação','1992',04,'politica');
+insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(06,'a rosa do povo','1945',05,'poesia');
+insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(07,'o mundo e grande','2023',05,'poesia');
+insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(08,'geografia da fome','2022',06,'filosofia');
+insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(09,'o labirinto da solidão e post scriptum','1950',07,'filosofia');	
+insert into tblivros(idlivros,titulo,ano,auto_idautor,categoria_idcategoria)values(10,'o poeta, o guerreiro e o profeta','1990',08,'poesia');
 
 select * from tblivros;
 
@@ -45,3 +45,12 @@ insert into tbidAutor(idautor,nome,pais)values(07,'octavio paz','mexico');
 insert into tbidAutor(idautor,nome,pais)values(08,'rubem alves','brasil');
 
 select * from tbidAutor	
+
+desc tbcaegoria;
+
+insert into tbcaegoria(idcategoria,nome,descricao)values(01,'colecionador de pedras',);
+insert into tbcaegoria(idcategoria,nome,descricao)values(01,'literatura,pão e poesia',);	
+insert into tbcaegoria(idcategoria,nome,descricao)values(01,'flores da batalha');	
+insert into tbcaegoria(idcategoria,nome,descricao)values(02,'raizes do brasil');	
+insert into tbcaegoria(idcategoria,nome,descricao)values(03,'A república');
+insert into tbcaegoria(idcategoria,nome,descricao)values(0)
