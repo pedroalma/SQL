@@ -44,7 +44,20 @@ insert into tbl_autores(id_Autor,nome_Autor,Sobrenome_Autor,email_Autor)values(3
 insert into tbl_autores(id_Autor,nome_Autor,Sobrenome_Autor,email_Autor)values(4,'marcelo','anchieta','marceloso432@gmail.com');
 insert into tbl_autores(id_Autor,nome_Autor,Sobrenome_Autor,email_Autor)values(5,'robem','alves','rubinho123@gmail.com');
 
-insert into tbl_editoras(id_Editora,nome_editora,email,cnpj,tel)values(1,'voca','voca@gmail.com')	
-insert into tbl_editoras(id_Editora,nome_editora,email,cnpj,tel)values
-insert into tbl_editoras(id_Editora,nome_editora,email,cnpj,tel)values	
-insert into tbl_editoras(id_Editora,nome_editora,email,cnpj,tel)values	
+insert into tbl_editoras(id_Editora,nome_editora,email,cnpj,tel)values(1,'voca','voca@gmail.com','312.221.546/8998-60','97895-8795');	
+insert into tbl_editoras(id_Editora,nome_editora,email,cnpj,tel)values(2,'prova','prova@gmail.com','564.564.645/7845-98','94561-1234');
+insert into tbl_editoras(id_Editora,nome_editora,email,cnpj,tel)values(3,'provoca','provoca@gmail.com','879.465.123/8795-56','94512-1254');	
+insert into tbl_editoras(id_Editora,nome_editora,email,cnpj,tel)values(4,'move','move@gmail.com','789.564.645/7845-78','94512-5487');
+insert into tbl_editoras(id_Editora,nome_editora,email,cnpj,tel)values(5,'atena','atena@gmail.com','456.323.889/7854-89','95621-7754');	
+
+insert into tbl_categorias(id_caegoria,categoria)values(1,'filosofia');
+insert into tbl_categorias(id_caegoria,categoria)values(2,'literatura');		
+insert into tbl_categorias(id_caegoria,categoria)values(3,'politica');	
+insert into tbl_categorias(id_caegoria,categoria)values(4,'poema');
+insert into tbl_categorias(id_caegoria,categoria)values(5,'romance');
+
+insert into tbl_livro(id_livro,nome_livro,quantidade_tipo,id_categoria,id_Autor,preco_livro,id_editora,isbn13,isbn10)values(01,'colecionador de pedras',200,4,1,200.90,1,0213465879132,1326457980);
+insert into tbl_livro(id_livro,nome_livro,quantidade_tipo,id_categoria,id_Autor,preco_livro,id_editora,isbn13,isbn10)values(02,'literatura,pão e poesia',200,4,1,400.00,1,2136457980312,7894653120);			
+insert into tbl_livro(id_livro,nome_livro,quantidade_tipo,id_categoria,id_Autor,preco_livro,id_editora,isbn13,isbn10)values(03,'flores da batalha',200,4,1,100.90,3,3216547980798,9786541230);	
+insert into tbl_livro(id_livro,nome_livro,quantidade_tipo,id_categoria,id_Autor,preco_livro,id_editora,isbn13,isbn10)values(04,'geografia da fome',500,1,550.50,5,7984561321230,7986453120987);
+insert into tbl_livro(id_livro,nome_livro,quantidade_tipo,id_categoria,id_Autor,preco_livro,id_editora,isbn13,isbn10)values	(05,'o labirinto da solidão e post scriptum',500,1,550.50,5,7984561381230,7986453820987)
