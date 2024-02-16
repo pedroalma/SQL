@@ -50,4 +50,11 @@ select * from PRODUTOS;
 
 select sqrt( sum(pow(QUANTIDADE,2) + pow(valor,2) ) ) from PRODUTOS where codigo = 1;
 
-select * from PRODUTOS where NOME like ''
+select * from PRODUTOS where NOME like '%m';
+select * from PRODUTOS where NOME like 'm%';
+select * from PRODUTOS where NOME like '%m%';
+
+select * from PRODUTOS where NOME not like '%m';
+select * from PRODUTOS where NOME not like 'm%';
+select * from PRODUTOS where NOME not like '%m%';
+
